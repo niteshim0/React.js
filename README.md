@@ -10,7 +10,7 @@
  - After mastering Javascript.
  - Most projects doesn't need React in their initial phase. One must be aware of the fact when using a certain tech is overkill.
 
-## Why React was created Facebook ?
+## Why React was created by Facebook ?
 
 **Problem : Phatom Message Problem:** The problem  relates to the inconsistency in updating message counts in Facebook's chat feature. Specifically, when a user reads a message in the chat, the message count for that particular conversation doesn't get updated. This inconsistency can lead to user frustration as they might continue to see an unread message count even after they've already read the messages.It occurs because application state and DOM is not in sync.
 
