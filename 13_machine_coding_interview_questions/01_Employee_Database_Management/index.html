@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employee Database Management</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <header class="header">Employee Database Management</header>
+    <button class="createEmployee">Add Employee</button>
+    </header>
+    <div class = "employees">
+      <div class = "employees__names">
+        <span class = "employees__names--title">Employee List</span>
+        <div class = "employees__names--list"></div>
+      </div>
+      <div class = "employees__single">
+        <span class = "employees__single--title">Employee Information</span>
+        <div class = "employees__names--info"></div>
+      </div>
+    </div>
+
+    <div class = "addEmployee">
+      <form class = "addEmployee_create">
+        Add a new employee
+      <div>
+        <input type="text" name="firstName" placeholder="First Name" required/>
+        <input type="text" name="lastName" placeholder="Last Name" required/>
+      </div>
+      <input type="text" name="imageUrl" placeholder="Image URL(optional)" />
+      <input type="text" name="lastName" placeholder="Email" required/>
+      <input type="text" name="firstName" placeholder="Contact" required/>
+      <input type="text" name="lastName" placeholder="Salary" required/>
+      <input type="text" name="firstName" placeholder="Address" required/>
+      <input type="text" name="lastName" placeholder="Date of Birth" class="addEmployee__create--dob" required/>
+      <input type="submit" class="addEmployee_create--submit" value="Submit"/>
+    <script src="./scripts.js" type="module"></script>
+  </body>
+</html>
